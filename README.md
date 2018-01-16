@@ -39,9 +39,10 @@
    - 数据量（Volume）
    - 耐久测试（Endurance Testing）：真实应用场景下可以运行多久
 
-##持续监控（Monitering）
+## 持续监控（Monitering）
 
 生产环境前，设置一个baseline，进行观察检测，生成一个可视化报告，有利于整个团队了解系统当前性能状况。
+
 1. QA or Test Env
 2. Setup Alert
 3. Generate Reporting（）
