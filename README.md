@@ -25,7 +25,7 @@
    常见优化策略（Strategy）：
 
    - 预加载（Preload）
-   - 延迟加载（Lazyload）
+   - 延迟加载（Lazy Load）
    - 批处理（Batch）：提高读写、更新速度
 
 3. 回归（Regression）
@@ -36,7 +36,7 @@
 2. Testing
    - 压力测试（Stress）：系统临界点/上限
    - 负载测试（Load Testing）：在一定负载下，找出系统瓶颈
-   - 数据量（Volume）
+   - 数据量（Data Volume）
    - 耐久测试（Endurance Testing）：真实应用场景下可以运行多久
 
 ## 持续监控（Monitering）
@@ -45,18 +45,18 @@
 
 1. QA or Test Env
 2. Setup Alert
-3. Generate Reporting（）
+3. Generate Reporting（生成可视化报告）
 
 ## 工具（Tools）
 
 
-|   GA    |  Splunk  | Nagios |
-| :-----: | :------: | :----: |
-| 端到端测试工具 | 后端（日志分析） |   硬件   |
+|  测试工具  |  GA  |  Splunk  | Nagios |
+| :----: | :--: | :------: | :----: |
+| **用途** | 端到端  | 后端（日志分析） |   硬件   |
 
 
 
-| Gatting | JMeter | The Grinder |
-| :-----: | :----: | :---------: |
-|  负载测试   |  性能测试  |  一个轻量级测试工具  |
+|  测试工具  | Gatting | JMeter | The Grinder |
+| :----: | :-----: | :----: | :---------: |
+| **用途** |  负载测试   |  性能测试  |     轻量级     |
 
